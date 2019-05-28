@@ -17,9 +17,9 @@ pip install -r requitements.txt
 
 ## Configure your Site
 
-1. Place your HTML files (template) in the *src* folder. Remember you can use template inheritance, as Jinja2 is used to render the template (see [docs](http://jinja.pocoo.org/docs/2.10/templates/#template-inheritance) for more information).
+1. Place your HTML files (template) in the **src** folder. Remember you can use template inheritance, as Jinja2 is used to render the template (see [docs](http://jinja.pocoo.org/docs/2.10/templates/#template-inheritance) for more information).
 
-2. You can use the *data.json* to pass data to specific HTML templates. See the example site provided ([davidpaule.es](http://davidpaule.es/)) as a starting point.
+2. You can use the **data.json** to pass data to specific HTML templates. See the example site provided ([davidpaule.es](http://davidpaule.es/)) as a starting point.
 
 3. Test you site by running a local server:
 
@@ -35,8 +35,10 @@ make build
 you will find your rendered website in the *output* folder.
 
 ## Deploy your site
-After building your site, you need to upload the files in the *output* folder yo your server. If you have a [Github Page](https://pages.github.com/), you can run:
+After building your site, you need to upload the files in the *output* folder yo your server.
+
+Alternatively, If you have a [Github Page](https://pages.github.com/), you can run:
 ```
 make deploy
 ```
-*Note:* First, you need to configure your Github page and create a repository. You can start by [following](https://guides.github.com/features/pages/) this guidelines.
+**Note:** First, you need to configure your Github page and create a repository. You can start by [following](https://guides.github.com/features/pages/) this guidelines.
