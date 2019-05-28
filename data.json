@@ -1,0 +1,75 @@
+{ 
+
+"publications":[
+	{
+		"title": "Learning to Geolocalise Tweets at a Fine-Grained Level",
+		"pdf": "static/publications/cikm2018-author.pdf",
+		"poster": "static/publications/cikm2018_poster.pdf",
+		"authors": "<b>Gonzalez Paule J.D.</b>, Yashar Moshfeghi, Craig MacDonald and Iadh Ounis.",
+		"conference": {"name": "CIKM 2018, Turin, Italy", "url": "http://www.cikm2018.units.it/"},
+		"doi": {"id": "10.1145/3269206.3269291", "url": "https://doi.org/10.1145/3269206.3269291"}
+	},
+	{
+		"title": "On Fine-Grained Geolocalisation of Tweets and Real-Time Traffic Incident Detection",
+		"pdf": "/static/publications/ipm-journal-preprint.pdf",
+		"authors": "<b>Gonzalez Paule J.D.</b>, Yashar Moshfeghi, and Yeran Sun.",
+		"conference": {"name": "Information Processing & Management 2018", "url": "https://www.journals.elsevier.com/information-processing-and-management/"},
+		"doi": {"id": "10.1016/j.ipm.2018.03.011", "url": "https://doi.org/10.1016/j.ipm.2018.03.011"}
+	},
+	{
+		"title": "On Fine-Grained Geolocalisation of Tweets",
+		"pdf": "/static/publications/ictir2017.pdf",
+		"poster": "/static/publications/ictir2017_poster.pdf",
+		"authors": "<b>Gonzalez Paule J.D.</b>, Yashar Moshfeghi, Joemon M. Jose and Piyushimita (Vonu) Thakuriah.",
+		"conference": {"name": "ICTIR 2017, Amsterdam, Netherlands", "url": "http://sigir.org/ictir2017/"},
+		"doi": {"id": "10.1145/3121050.3121104", "url": "https://doi.org/10.1145/3121050.3121104"}
+	},
+	{
+		"title": "Beyond geotagged tweets: exploring the geolocalisation of tweets for transportation applications",
+		"pdf": "https://books.google.co.uk/books?id=Ib5mDwAAQBAJ&pg=PA1&lpg=PA1&dq=Beyond+geotagged+tweets:+exploring+the+geolocalisation+of+tweets+for+transportation+applications&source=bl&ots=XLMZpxNmYJ&sig=3TaztOigZs_1NPUl_VOBO91VGJk&hl=en&sa=X&ved=2ahUKEwiB5f6MmfzdAhWryIUKHWgoDSsQ6AEwBXoECAQQAQ#v=onepage&q=Beyond%20geotagged%20tweets%3A%20exploring%20the%20geolocalisation%20of%20tweets%20for%20transportation%20applications&f=false",
+		"authors": "<b>Gonzalez Paule J.D.</b>, Yeran Sun and Piyushimita (Vonu) Thakuriah.",
+		"conference": {"name": "Transportation Analytics in the Era of Big Data, Springer (2018). Chapter 1", "url": "https://www.springerprofessional.de/en/beyond-geotagged-tweets-exploring-the-geolocalisation-of-tweets-/15984974"},
+		"doi": {"id": "10.1145/3121050.3121104", "url": "https://doi.org/10.1145/3121050.3121104"}
+	},
+	{
+		"title": "Sensing spatiotemporal patterns in urban areas: analytics and visualizations using the integrated multimedia city data platform",
+		"pdf": "http://ubdc.ac.uk/media/1432/thakuriahbepreprint2.pdf",
+		"authors": "Piyushimita (Vonu) Thakuriah, Katarzyna Sila-Nowicka and <b>Gonzalez Paule J.D.</b>",
+		"conference": {"name": "Built Environment 42 (3), 415-429", "url": "http://alex.publisher.ingentaconnect.com/contentone/alex/benv/2016/00000042/00000003/art00009"}
+	},
+	{
+		"title": "Spatial analysis of users-generated ratings of yelp venues",
+		"pdf": "https://pdfs.semanticscholar.org/c6cd/61e168fd79ef1dc59cfbdb1ed4811dcd2f3a.pdf",
+		"authors": "Yeran Sun and <b>Gonzalez Paule J.D.</b>",
+		"conference": {"name": "Open Geospatial Data, Software and Standards 2017", "url": "https://link.springer.com/article/10.1186/s40965-017-0020-9"}
+	}],
+
+
+"talks": [
+	{ 
+		"title": "Introduction to Text Mining and Topic Modelling",
+		"description": "<p>In this talk, I give a brief introduction to Text Mining and Topic Modelling. I cover the basics of Information Retrieval, Information Extraction and Natural Language Processing (NLP) Techniques, as well as a detailed explanation of the Latent Dirichlet Allocation (LDA) model.</p> <p> This talk was given in the Urban Big Data Centre (University of Glasgow).</p>",
+		"url": "https://www.slideshare.net/xsaliasx/introduction-to-text-mining-and-topic-modelling"
+	},
+	{ 
+		"title": "Inferring the Geolocation of Tweets at a Fine-Greained Level",
+		"description": "<p>These are the slides presented during the defence of my PhD Thesis in November 2018 at the University of Glasgow.</p> <p>Supervisors: Professor Iadh Ounis, Dr Craig MacDonald and Dr Yashar Moshfeghi.</p> <p>Examiners: Dr Richard McCreadie and Professor Mohand Boughanem.</p>",
+		"url": "https://www.slideshare.net/xsaliasx/david-paules-phd-thesis-defence"
+	}	
+	],
+
+
+"code": [
+	{ 
+		"title": "POI-Retriever",
+		"description": "A python script for collecting Point Of Interest (POI) data.",
+		"url": "https://github.com/Salias/POI-Retriever"
+	},
+	{ 
+		"title": "Twitter-Text-Classifier",
+		"description": "Text Classification of Twitter posts.",
+		"url": "https://github.com/Salias/twitter-text-classifier"
+	}	
+	]
+
+}

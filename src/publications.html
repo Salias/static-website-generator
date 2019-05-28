@@ -1,0 +1,34 @@
+{% extends "_base.html" %}
+{% block content %}
+
+
+<section id="publications">
+<h1>Publications</h1>
+<ul>
+{% for pub in data %}
+	<li> 
+		<div class="article">
+			 <strong>{{ pub.title }}</strong>
+			 <br>
+			 <span class="link">
+			 		{% if pub.pdf %}
+						<a href="{{ pub.pdf }}" target="_blank">[pdf]</a>
+					{% endif %}
+					{% if pub.poster %}
+						<a href="{{ pub.poster }}" target="_blank">[Conference Poster]</a>
+					{% endif %}
+			 </span>
+			 <br>
+			 <span><em>{{ pub.authors }}</em></span><br>
+			 <span><em><a href="{{ pub.conference.url }}" target="_blank">{{ pub.conference.name }}</a></em></span><br>
+			 {% if pub.poster %}
+			 	<span>DOI: <a href="{{ pub.doi.url }}">{{ pub.doi.id }}</a></span>
+			 {% endif %}
+		</div>
+	</li>
+	<hr>
+{% endfor %}
+</ul>
+</section>
+
+{% endblock %}

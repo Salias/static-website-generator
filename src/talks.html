@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<section id="talks">
+	<h1> Talks: </h1>
+	<ul>
+		{% for talk in data %}
+		<li>			
+			<div>
+				<i class="fas fa-file-powerpoint"></i>
+				<a href="{{ talk.url }}" target="_blank">
+					 <strong>{{ talk.title }}</strong>
+				</a>
+				{% if talk.description %}
+				<br>
+				<p>
+					{{ talk.description }}
+				</p>
+				{% endif %}				
+			</div>
+		</li>
+		<br>
+		{% endfor %}		
+	</ul>
+</section>
+
+{% endblock %}

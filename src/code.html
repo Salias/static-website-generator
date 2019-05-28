@@ -1,0 +1,22 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<section id="code">
+	<h1>Code</h1>
+	<ul>
+		{% for code in data %}
+		<li>
+		<div>
+			<i class="fas fa-code"></i>
+			 <a href="{{ code.url }}" target="_blank">
+			 <strong> {{ code.title }}:</strong>
+		</a>
+			 <span>{{ code.description }}</span><br>
+		</div>
+		</li>
+		<p></p>
+		{% endfor %}	
+	</ul>
+</section>
+
+{% endblock %}

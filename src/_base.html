@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title class="next-head">David Paule, PhD</title>
+			<meta name="description" content="I&#39;m David Paule, PhD. Living in Glasgow, Scotland." class="next-head">
+			<meta name="msvalidate.01" content="028A44F8B5AF6A73C6AF3B4910C1123E" />
+			<meta property=”og:type” content=”website” />
+			<meta property=”og:title” content=”David Paule Homepage - PhD Student” />
+			<meta property=”og:url” content=”http://www.dcs.gla.ac.uk/~jorge/” />
+			<meta property=”og:image” content=”http://www.dcs.gla.ac.uk/~jorge/static/images/me_.jpg” />
+
+
+			<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+			<link href="./static/css/style.css" rel="stylesheet">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+			<!-- 						<meta name="viewport" content="width=device-width, initial-scale=1" class="next-head"><link rel="icon" href="https://tombates.co/static/favicon.ico" class="next-head"> -->
+			<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="./static/js/jquery-3.3.1.min.js"></script>
+			<script type="text/javascript" src="./static/js/keypress_nav.js"></script>
+			<meta name="google-site-verification" content="eo-My-sQS_U7JmPlh7lL0lvILfn_bTfyj8ZLcOCrd_Y" />
+	</head>
+	<body>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<div id="header">
+				{% include '_navigator.html' %}
+			</div>
+
+			<div id="container">
+				 <div id="left">
+				 	{% include '_sidebar.html' %}
+				 </div>
+				 <div id="right">
+				 	{% block content %}
+					{% endblock %}
+				 </div>
+			</div>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 700) {
+				  document.getElementById("myBtn").style.display = "block";
+			 } else {
+				  document.getElementById("myBtn").style.display = "none";
+			 }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			 document.body.scrollTop = 0;
+			 document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>

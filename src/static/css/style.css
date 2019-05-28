@@ -1,0 +1,192 @@
+
+body{font-family:'Roboto Mono', monospace}
+
+body {
+	/* text-align: left; */
+	background: #FFF;
+	color: #2e3238;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 20px;
+	margin: 0;
+	padding: 60px 36px;
+	margin-bottom: 40px;
+
+	background-image: url("../images/phi.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -100px -120px;
+}
+
+section {
+	text-align: left;
+	max-width: 500px;
+	margin-bottom: 40px;
+}
+
+
+.footer {
+	margin: 48px 0 0;
+}
+
+ul {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+p {
+	margin: 0 0 18px;
+}
+
+#portrait {
+	border-radius: 15px 50px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sample-thesis {
+	width: 250;
+	height: 400;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sample-thesis img {
+	max-width:100%;
+    height:auto;
+}
+
+#container {
+	 width: 895px;
+	 background-color: white;
+	 margin: auto;
+}
+
+#header {
+	 width: 100%;
+	 /* height: 90px; */
+	 margin-bottom: 50px;
+}
+
+#header h5 {
+	margin-bottom: 60px;
+	margin-top: -16px;
+}
+
+#left {
+	 float: left;
+}
+
+#right {
+	 float: right;
+}
+
+#right a {
+	color: currentcolor;
+	box-shadow: inset 0 -0.33333em rgba(157, 201, 255, 0.32);
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+#right a:hover {
+	background: rgba(157, 201, 255, 0.32);
+	box-shadow: none;
+}
+
+
+#clear {
+	 clear: both;
+}
+
+#menu {
+	background-color: rgba(0,0,0,0);
+	text-align: left;
+	margin-left: 455px;
+	/* margin-bottom: 37px; */
+	/* margin-left: 396px;
+	margin-top: -30px; */
+}
+
+#menu a {
+	color: currentcolor;
+	box-shadow: inset 0 -0.33333em rgba(157, 201, 255, 0.32);
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+#publications {
+	/*margin-top: 60px;*/
+}
+
+#social {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#social a {
+	color: currentcolor;
+	text-decoration: none;
+}
+
+
+div.type {
+	color: #FFF;
+	font-size: 9pt;
+	 display: inline-block;
+	 background: rgb(64, 66, 255);
+	 border-radius: 4px;
+	 padding: 1px;
+	 margin-right: 300px;
+	 font-family: Raleway,sans-serif;
+}
+
+div.article {
+
+}
+
+div.article > span {
+	font-size: 12px;
+}
+
+div.article > strong {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+div.article > span.link {
+	font-size: 14px;
+	/* line-height: 1.42857143; */
+	color: blue;
+}
+
+span.link a {
+	color: blue;
+	box-shadow: unset;
+}
+
+
+
+#myBtn {
+	  display: none;
+	position: fixed;
+	/* bottom: 20px; */
+	top: 5px;
+	right: 10px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
