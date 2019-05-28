@@ -17,7 +17,7 @@ pip install -r requitements.txt
 
 ## Configure your Site
 
-1. Place your HTML files (template) in the *src* folder. Remember you can use template hierarchy, as Jinja2 is used to render the template (see for more information).
+1. Place your HTML files (template) in the *src* folder. Remember you can use template inheritance, as Jinja2 is used to render the template (see [docs](http://jinja.pocoo.org/docs/2.10/templates/#template-inheritance) for more information).
 
 2. You can use the *data.json* to pass data to specific HTML templates. See the example site provided ([davidpaule.es](http://davidpaule.es/)) as a starting point.
 
@@ -28,7 +28,6 @@ make server
 ```
 
 ## Generate Static Site
-
 Once you have created your template, you are ready to generate your static website by running:
 ```
 make build
